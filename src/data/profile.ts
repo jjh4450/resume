@@ -3,9 +3,9 @@ export const image = profileImage;
 export const name = "조준환";
 export const title = "mock data";
 export const contacts = [
-    {icon: "envelope", text: "me@yowu.dev", link: "mailto:me@yowu.dev"},
-    {icon: "phone", text: "Please contact me by email"},
-    {icon: "github", text: "https://github.com/uyu423", link: "https://github.com/uyu423"},
-    {icon: "rss", text: "https://blog.yowu.dev", link: "https://blog.yowu.dev"},
-    {icon: "facebook", text: "@LuckyYowu", link: "https://facebook.com/luckyyowu"},
+    {icon: "envelope", text: "jjh4450git@gmail.com", link: "mailto:jjh4450git@gmail.com"},
+    // {icon: "phone", text: "웹사이트는 메일만 기재합니다.", link: ""},
+    {icon: "github", text: "https://jeje.work/github", link: "https://jeje.work/github"},
+    {icon: "rss", text: "https://blog.jeje.work", link: "https://blog.jeje.work"},
+    // {icon: "linkedin", text: "", link: "https://facebook.com/luckyyowu"},
 ];
