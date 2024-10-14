@@ -1,5 +1,7 @@
-export const name = "유 용 우";
-export const title = "요우";
+import profileImage from "../assets/jeje3.jpg";
+export const image = profileImage;
+export const name = "조준환";
+export const title = "mock data";
 export const contacts = [
     {icon: "envelope", text: "me@yowu.dev", link: "mailto:me@yowu.dev"},
     {icon: "phone", text: "Please contact me by email"},
