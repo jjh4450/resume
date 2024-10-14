@@ -21,6 +21,7 @@ const Resume = () => {
 
             {
                 Object.entries(myData).map(([section, items]) => (
+                    items.length > 0 &&
                     <Section key={section} title={section}>
                         {items.map((item, index) => (
                             <React.Fragment key={index}>
