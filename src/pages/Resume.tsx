@@ -4,7 +4,6 @@ import {SkillCategory} from "../components/SkillCategory.tsx";
 import {ExperienceItem} from "../components/ExperienceItem.tsx";
 import {skills} from "../data/skills.ts";
 import {myData} from "../data/detail";
-import {Footer} from "../components/Footer.tsx";
 
 const Resume = () => {
 

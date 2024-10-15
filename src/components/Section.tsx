@@ -1,6 +1,6 @@
-import React from "react";
+import {SectionData} from "../types/sectionData.ts";
 
-export const Section = ({title, children}) => (
+export const Section = ({title, children}: SectionData) => (
     <div className="row pt-5">
         <div className="col">
             <div className="row pb-3">

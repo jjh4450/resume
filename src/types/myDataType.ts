@@ -1,4 +1,4 @@
-interface SectionData {
+export interface SectionData {
     title: string;
     company: string;
     period: string;
@@ -7,6 +7,6 @@ interface SectionData {
     skills: string[];
 }
 
-interface detailData {
+export interface detailData {
     [key: string]: SectionData[];
 }

@@ -1,6 +1,7 @@
 /**
  * 기타 항목(대회, 자격증, 봉사 등)에 대한 소개 영역
  */
+import {SectionData} from "../../types/myDataType.ts";
 
 export const etc: SectionData[] = [
     {
