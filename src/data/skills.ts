@@ -1,4 +1,6 @@
-export const skills = {
+import {SkillListData} from "../types/skillData.ts";
+
+export const skills: SkillListData = {
     "Back-end": [
         [
             {name: "Node.js", level: 3},

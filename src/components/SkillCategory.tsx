@@ -1,6 +1,6 @@
-import React from "react";
+import {SkillCategoryData} from "../types/skillData.ts";
 
-export const SkillCategory = ({category, skills}) => (
+export const SkillCategory = ({category, skills}: SkillCategoryData) => (
     <div className="row">
         <div className="col-12 col-md-3 text-md-end">
             <h4 className="text-muted">{category}</h4>

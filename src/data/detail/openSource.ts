@@ -1,6 +1,7 @@
 /**
  * 오픈소스 활동에 대한 소개 영역
  */
+import {SectionData} from "../../types/myDataType.ts";
 
 export const openSource: SectionData[] = [
     {

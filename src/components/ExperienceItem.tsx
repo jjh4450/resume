@@ -1,6 +1,6 @@
-import React from "react";
+import {SectionData} from "../types/myDataType.ts";
 
-export const ExperienceItem = ({title, company, period, duration, description, skills}) => (
+export const ExperienceItem = ({title, company, period, duration, description, skills}: SectionData) => (
     <div className="row">
         <div className="col-md-3 col-12 text-md-end">
             <div className="row">

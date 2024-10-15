@@ -1,7 +1,7 @@
-import React from "react";
 import {image} from "../data/profile.ts";
+import {HeaderData} from "../types/header.ts";
 
-export const Header = ({name, title, contacts}) => (
+export const Header = ({name, title, contacts}: HeaderData) => (
     <div className="row mt-5">
         <div className="col-md-3 col-sm-12 pb-3 text-md-end text-center">
             <img className="img-fluid rounded profile-img" src={image} alt="Profile"/>
@@ -9,7 +9,7 @@ export const Header = ({name, title, contacts}) => (
         <div className="col-md-9 col-sm-12">
             <div className="row">
                 <div className="col text-center text-md-start">
-                    <h1 className="blue">{name} {title&&<small>({title})</small>}</h1>
+                    <h1 className="blue">{name} {title && <small>({title})</small>}</h1>
                 </div>
             </div>
             <div className="row">

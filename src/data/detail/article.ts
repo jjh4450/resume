@@ -1,6 +1,7 @@
 /**
  * 블로그/SNS 포스트, 기사에 대한 소개 영역
  */
+import {SectionData} from "../../types/myDataType.ts";
 
 export const article: SectionData[] = [
     {

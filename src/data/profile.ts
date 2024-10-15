@@ -1,4 +1,5 @@
 import profileImage from "../assets/jeje3.jpg";
+
 export const image = profileImage;
 export const name = "조준환";
 export const title = "mock data";
